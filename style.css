@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+:root{
+    --Main-Color: #00b7ff;
+}
+
+body{
+    background: var(--Main-Color);
+}
+
+#Box{
+    width: 270px;
+    background: white;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+
+#Box h2{
+    font-size: 30px
+}
+
+form div{
+    border: 1px solid var(--Main-Color);
+    margin-top: 10px;
+    height: 35px;
+}
+
+form div span{
+    width: 40px;
+    background: var(--Main-Color);
+    height: 100%;
+    text-align: center;
+    padding-top:5px;
+    color: rgb(255, 255, 255);
+}
+
+form div input{
+    width: calc(100% - 40px);
+    float: right;
+    height: 100%;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+}
+
+form button{
+    width: 100%;
+    margin-top: 10px;
+    height: 35px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    background: var(--Main-Color);
+}
